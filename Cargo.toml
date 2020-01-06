@@ -1,0 +1,8 @@
+[package]
+name = "json"
+version = "0.1.20"
+authors = ["Byxxx <xuboyu72@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+json_derive = { path = "./json_derive" }

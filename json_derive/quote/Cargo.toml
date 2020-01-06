@@ -1,0 +1,5 @@
+[package]
+name = "json_quote"
+version = "1.7.6"
+authors = ["Byxxx <xuboyu72@gmail.com>"]
+edition = "2018"

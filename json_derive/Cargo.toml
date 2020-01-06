@@ -1,0 +1,13 @@
+[package]
+name = "json_derive"
+version = "0.1.4"
+authors = ["Byxxx <xuboyu72@gmail.com>"]
+edition = "2018"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+json_quote = { path = "./quote" }
+json_parse = { path = "./parse" }
+
