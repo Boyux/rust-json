@@ -10,4 +10,3 @@ proc-macro = true
 [dependencies]
 json_quote = { path = "./quote" }
 json_parse = { path = "./parse" }
-
