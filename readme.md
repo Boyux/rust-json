@@ -222,11 +222,15 @@ let js: Json = r#"{"list": [1, 2, 3]}"#.parse().unwrap();
 assert_eq!(Json::Number(1f64), js["list"][0]);
 ```
 
-You can add/set/del value to json object/array by:
+You can add/set/del value json by:
+
+object:
 
 - `Json::insert`: insert value to json object, if key exists, update that key.
 - `Json::append`: append value to json object, may cause duplicate key.
 - `Json::delete`: delete value by key in json object.
+
+array:
 
 - `Json::push`: push element to json array.
 - `Json::replace`: replace element in json array.
